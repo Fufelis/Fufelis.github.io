@@ -35,7 +35,7 @@ body{
     flex: 1; /* additionally, equal width */
 }
 .resize{
-    width:  25%;
+    width:  65%;
     height: auto;
     padding: 5px 5px 5px 5px;
 }
