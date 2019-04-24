@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/myStyle.css">
     <link rel="stylesheet" href="./css/reset.css">
     <title>Document</title>
@@ -12,30 +10,34 @@
 <body>
 <div class="mainbox">
     <img src="./pictures/logo.png" alt="Logotips">
-    <div class="menu">
-        <ul>
-            <li><a href="index.html" class="button">Galvenā</a></li>
-            <li><a href="page2.html" class="button">Sadaļa2</a></li>
-            <li><a href="page3.html" class="button">Sadaļa3</a></li>
-            <li><a href="page4.html" class="button">Galerija</a></li>
-        </ul>
+    <div class="menu_container">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" class="button">Galvenā</a></li>
+                <li><a href="page2.html" class="button">Sadaļa2</a></li>
+                <li><a href="page3.html" class="button">Sadaļa3</a></li>
+                <li><a href="page4.html" class="button">Galerija</a></li>
+            </ul>
+        </div>
     </div>
+
     <div class="row">
     <div class="leftside col">leftside </div>
     <div class="main page2">
-        <h1>A Big title</h1>
+        <h1>Lorem ipsum dolor sit amet</h1>
         <ul>
-            <li>
-                <figure> <img src="./pictures/placeholder.png" alt="???">
-                    <figcaption>A subtitle</figcaption>
-                </figure>
-
+            <li class="fig-container">
+                    <figure class="captioned-figure">
+                        <img class="full-width resize" src="./pictures/van2.jpg" alt="???">
+                        <figcaption>Lorem ipsum</figcaption>
+                    </figure>
             </li>
-            <li><p>some text</p></li>
-            <li>
-                <figure> <img src="./pictures/placeholder.png" alt="???">
-                    <figcaption>A subtitle</figcaption>
-                </figure>
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum lobortis est id imperdiet.</p></li>
+            <li class="fig-container">
+                    <figure class="captioned-figure">
+                        <img class="full-width resize" src="./pictures/van.jpg" alt="???">
+                        <figcaption>Lorem ipsum</figcaption>
+                    </figure>
             </li>
         </ul>
     </div>

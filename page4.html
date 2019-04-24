@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/myStyle.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./libs/lightbox/css/lightbox.css">
@@ -14,26 +12,36 @@
 <body>
 <div class="mainbox">
     <img src="./pictures/logo.png" alt="Logotips">
-    <div class="menu">
-        <ul class="page3">
-            <li><a href="index.html" class="button">Galvenā</a></li>
-            <li><a href="page2.html" class="button">Sadaļa2</a></li>
-            <li><a href="page3.html" class="button">Sadaļa3</a></li>
-            <li><a href="page4.html" class="button">Galerija</a></li>
-        </ul>
+    <div class="menu_container">
+        <div class="menu">
+            <ul class="page3">
+                <li><a href="index.html" class="button">Galvenā</a></li>
+                <li><a href="page2.html" class="button">Sadaļa2</a></li>
+                <li><a href="page3.html" class="button">Sadaļa3</a></li>
+                <li><a href="page4.html" class="button">Galerija</a></li>
+            </ul>
+        </div>
     </div>
+
     <div class="row">
-        <div class="leftside col ">leftside </div>
-        <div class="main col">
-            <h3>Bildes</h3>
+        <div class="leftside col ">
+            <ul>
+                <li><a href="page4.html"></a></li>
+            </ul>
+        </div>
+        <div class="main ">
+            <h1>Galerija</h1>
+            <div class="center">
             <div>
-                <a href="./pictures/placeholder.png" data-lightbox="example-set" data-title="???"> <img class="resize page4" src="./pictures/placeholder.png"  alt="???" ></a>
-                <a href="./pictures/placeholder.png" data-lightbox="example-set" data-title="????" > <img class="resize " src="./pictures/placeholder.png" alt="??? "></a>
+                <a href="./pictures/gallerry/gal1.jpg" data-lightbox="example-set" data-title="???"> <img class="resize page4" src="./pictures/gallerry/gal2.jpg"  alt="???" ></a>
+                <a href="./pictures/gallerry/gal2.jpg" data-lightbox="example-set" data-title="????" > <img class="resize " src="./pictures/gallerry/gal2.jpg" alt="??? "></a>
             </div>
             <div>
-                <a href="./pictures/placeholder.png" data-lightbox="example-set" data-title="????" > <img class="resize page4" src="./pictures/placeholder.png" alt="??? "></a>
+                <a href="./pictures/gallerry/gal3.jpg" data-lightbox="example-set" data-title="????" > <img class="resize page4" src="./pictures/gallerry/gal3.jpg" alt="??? "></a>
+
             </div>
-            <div> <video  controls src="./videos/vid.mp4" ></video></div>
+                <div><video class="resize"  controls src="./videos/vid.mp4" ></video></div>
+             </div>
 
         </div>
         <div class="rightside col">rightside </div>
